@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GH Actions</title>
+    <title>Listado</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,8 +23,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 80vh;
             flex-direction: column;
+            margin-top: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         a {
             font-size: 18px;
@@ -42,11 +56,16 @@
     </style>
 </head>
 <body>
-    <h1>Hola</h1>
-    
+    <h1>Listado de Elementos</h1>
+
     <div class="content">
-        <p>Bienvenido a la página de GH Actions. Haz clic en el siguiente enlace para ver el listado.</p>
-        <a href="listado.html">Ir al listado</a>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+
+        <a href="index.html">Volver al inicio</a>
     </div>
 </body>
 </html>
